@@ -22,6 +22,7 @@ In the 3 Screenshots listed below, this is the newly updated webpage with Semant
 ```md
  [Lower Portion of the Webpage](Develop/assets/images/screenshot3.jpg)
  ```
+ Website URL: https://carsonjames1125.github.io/challenge-1-carsonjames/
 
  ## Credits
 
