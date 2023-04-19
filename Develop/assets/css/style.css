@@ -1,4 +1,4 @@
-
+/* Basic CSS properties*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -28,6 +28,8 @@ p {
     margin-left: 25px;
 }
 
+/* Changed CSS styling for header and navigation*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,6 +47,8 @@ header nav {
 
 header nav ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -70,6 +74,8 @@ h1 .seo {
     background-size: cover;
     background-position: center;
 }
+
+/* CSS styling for main */
 
 main {
     width: 75%;
@@ -97,6 +103,8 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* CSS styling for aside (benefits sidebar of main content) */
 
 aside {
     margin-left: 20px;
@@ -128,6 +136,8 @@ aside img {
     max-width: 150px;
 }
 
+/* CSS for footer section */
+
 footer {
     padding: 30px;
     clear: both;
@@ -139,20 +149,21 @@ footer h4 {
     font-size: 20px;
 }
 
+/* accessibility styling */
+
 @media screen and (max-width: 992px) {
     aside {
-        display: flexbox;
+        flex-wrap: wrap;
     }
 }
-
-@media screen and (max-width: 768) {
-    aside {
-        display: flexbox;
+@media screen and (max-width: 992px) {
+    header nav ul {
+        flex-direction: column;
+        position: center;
     }
 }
-    
-@media screen and (max-width: 375) {
-    aside {
-        display: flexbox;
+@media screen and (max-width: 992) {
+    header {
+        display:flex;
     }
 }
